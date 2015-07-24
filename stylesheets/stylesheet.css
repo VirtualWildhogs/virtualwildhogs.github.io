@@ -292,7 +292,7 @@ p {
   font-family: 'Gruppo', cursive;
   font-size: 18px;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a {
@@ -300,7 +300,7 @@ a {
 }
 
 p a {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 blockquote {

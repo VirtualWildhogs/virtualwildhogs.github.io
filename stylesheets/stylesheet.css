@@ -61,6 +61,7 @@ table {
 
 /* LAYOUT STYLES */
 body {
+  align: justify;
   font-family: 'Cuprum', sans-serif;
   font-size: 20px;
   line-height: 1.5;

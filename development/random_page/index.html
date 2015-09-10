@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!-- ONE STEP TO INSTALL RANDOM PAGE:
+
+  1.  Copy the coding into the HEAD of your HTML document  -->
+
+<!-- STEP ONE: Paste this code into the HEAD of your HTML document  -->
+
+<head>
+
+<script>
+var howMany = 2;  // max number of items listed below
+var page = new Array(howMany+1);
+
+page[0]="first-random-page.html";
+page[1]="second-random-page.html";
+page[2]="third-random-page.html";
+
+function rndnumber(){
+var randscript = -1;
+while (randscript < 0 || randscript > howMany || isNaN(randscript)){
+randscript = parseInt(Math.random()*(howMany+1));
+}
+return randscript;
+}
+quo = rndnumber();
+quox = page[quo];
+window.location=(quox);
+
+</script>
+</head>
+
+<body>
+Blaeh
+</body>
+</html>

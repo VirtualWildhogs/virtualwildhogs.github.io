@@ -11,6 +11,6 @@ $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[p
 		var Title2 = ($(Title).text());
 		var Content2 = ($(Content).text());
 	
-		$("#qod-quote-text").append(Content2 + " &#x2015;" + Title);
+		$("#qod-quote-text").append(Content2 + " &#x2015;" + Title2);
 	}
 );

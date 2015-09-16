@@ -49,10 +49,8 @@
 		font: 20px 'Gruppo', serif;
 		font-weight: 400;
 		text-shadow: 0 0 25px rgba(254,254,255,0.85);
-		width: 99.9%;
-		margin: 0% 10% 0% 10%;
 		text-align: justify center;
-		text-justify: inter-word;
+		text-justify: normal;
 	}
 	
 	class^="letter"] {

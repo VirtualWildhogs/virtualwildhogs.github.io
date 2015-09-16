@@ -49,6 +49,7 @@
 		font: 20px 'Gruppo', serif;
 		font-weight: 400;
 		text-shadow: 0 0 25px rgba(254,254,255,0.85);
+		overflow-x: hidden;
 		text-align: center justify;
 		text-justify: normal;
 	}

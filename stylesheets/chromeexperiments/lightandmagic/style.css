@@ -1,7 +1,7 @@
 	* {
 		margin: 0; 
 		padding: 0;
-		text-align: center justify;
+		text-align: justify center;
 		text-justify: inter-word;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -51,6 +51,7 @@
 		font: 20px 'Gruppo', serif;
 		font-weight: 400;
 		text-shadow: 0 0 25px rgba(254,254,255,0.85);
+		margin: 0% 10% 0% 10%;
 	}
 	
 	class^="letter"] {
@@ -1090,7 +1091,7 @@
 		position: absolute;
 		z-index: 20;
 		width: 100%;
-		height: 100%;
+		height: 100%;		
 		text-align: center;
 		cursor: none;
 	}

@@ -13,6 +13,26 @@
 	padding: 0;
 }
 
+
+	html::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		border-radius: 10px;
+		background-color: #080510;
+	}
+
+	html::-webkit-scrollbar {
+		width: 6px;
+		background-color: #080510;
+	}
+
+	html::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+		background-color: #D62929;
+	}
+	
+
+
 html,
 body {
 	height: 100%;
@@ -29,52 +49,96 @@ body {
 	color: #222;
 }
 
-a {
-	color: #c2575b;
-	text-decoration: none;
-
-	-webkit-transition: 0.15s color ease;
-	   -moz-transition: 0.15s color ease;
-	    -ms-transition: 0.15s color ease;
-	     -o-transition: 0.15s color ease;
-	        transition: 0.15s color ease;
-}
+	a {
+		color: #c75c75;
+		text-decoration: none;
+		-webkit-transition: 1.35s color ease-in;
+		   -moz-transition: 1.35s color ease-in;
+			-ms-transition: 1.35s color ease-in;
+			 -o-transition: 1.35s color ease-in;
+				transition: 1.35s color ease-in;
+	}
 	a:hover {
-		color: #f76f76;
+		color: white;
+		opacity: 0.9;
+		-webkit-transition: 1.35s color ease-out;
+		   -moz-transition: 1.35s color ease-out;
+			-ms-transition: 1.35s color ease-out;
+			 -o-transition: 1.35s color ease-out;
+				transition: 1.35s color ease-out;
+	
 	}
 
-h1,
-h2 {
-	font-size: 24px;
-}
 
-.meny {
-	display: none;
-	padding: 20px;
-	overflow: auto;
-	background: #333;
-	color: #eee;
+	h1,
+	h2 {
+		font-size: 24px;
+	}
 
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-}
+	.meny {
+		display: none;
+		padding: 20px;
+		overflow: auto;
+		background: #333;
+		color: #eee;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+
 	.meny ul {
-		margin-top: 10px;
+		margin-top: 0;
+		padding: 0;
+		list-style-type: none;
 	}
-		.meny ul li {
-			display: inline-block;
-			width: 200px;
-			list-style: none;
-			font-size: 20px;
-			padding: 3px 10px;
-		}
-			.meny ul li:before {
-				content: '-';
-				margin-right: 5px;
-				color: rgba( 255, 255, 255, 0.2 );
-			}
 
+	
+	.meny ul li {
+		display: inline-block;
+		width: 200px;
+		list-style: none;
+		font-size: 20px;
+		padding: 3px 10px; 
+		font-weight: strong;
+	}
+	
+	.meny ul li:before {
+		content: '-';
+		margin-right: 5px; 
+		color: rgba( 255, 255, 255, 0.2 );
+	}
+	
+	
+/*	.meny a {
+		display: block;
+		color: #FFF;
+		background-color: #036;
+		width: 9em;
+		padding: 3px 12px 3px 8px;
+		text-decoration: none;
+		border-bottom: 1px solid #fff;
+		font-weight: bold;
+	}
+
+	.meny a:hover {
+		background-color: #369;
+		color: #FFF;
+	}
+
+	.meny li li a {
+		display: block;
+		color: #FFF;
+		background-color: #69C;
+		width: 9em;
+		padding: 3px 3px 3px 17px;
+		text-decoration: none;
+		border-bottom: 1px solid #fff;
+		font-weight: normal;
+	}
+
+	
+	
 /**
  * Hint graphic that appears while menu is inactive
  */

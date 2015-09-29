@@ -11,6 +11,19 @@
 				var revisitafter = (dd = d.getElementsByName('revisit-after')[0])? dd.getAttribute('content', 0) : '3 days';
 				var copyright = (dd = d.getElementsByName('copyright')[0])? dd.getAttribute('content', 0) : 'Divya Mohan';
 				var language= (dd = d.getElementsByName('language')[0])? dd.getAttribute('content', 0) : 'en';
+				var revised = new Date(document.lastModified);
+				var summary = (dd = d.getElementsByName('summary')[0])? dd.getAttribute('content', 0) : 'Personal Website';
+				var classification = (dd = d.getElementsByName('classification')[0])? dd.getAttribute('content', 0) : 'Personal';
+				var designer = (dd = d.getElementsByName('designer')[0])? dd.getAttribute('content', 0) : 'Divya Mohan';
+				var owner = (dd = d.getElementsByName('owner')[0])? dd.getAttribute('content', 0) : 'Divya Mohan';				
+				var baseurl = window.location.hostname;
+				var identityurl = window.location.href;
+				var category = (dd = d.getElementsByName('category')[0])? dd.getAttribute('content', 0) : 'Personal, Development';				
+				var coverage = (dd = d.getElementsByName('coverage')[0])? dd.getAttribute('content', 0) : 'Worldwide';				
+				var distribution = (dd = d.getElementsByName('distribution')[0])? dd.getAttribute('content', 0) : 'Global';				
+				var rating = (dd = d.getElementsByName('rating')[0])? dd.getAttribute('content', 0) : 'General';
+				var date = new Date;
+				var cachecontrol = (dd = d.getElementsByName('Cache-Control')[0])? dd.getAttribute('content', 0) : 'no-Cache';
 				
 				parent.document.querySelector('meta[name="description"]').setAttribute('content', description);
 				parent.document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
@@ -19,6 +32,20 @@
 				parent.document.querySelector('meta[name="revisit-after"]').setAttribute('content', revisitafter);
 				parent.document.querySelector('meta[name="copyright"]').setAttribute('content', copyright);
 				parent.document.querySelector('meta[name="language"]').setAttribute('content', language);
-
+				parent.document.querySelector('meta[name="revised"]').setAttribute('content', revised);
+				parent.document.querySelector('meta[name="summary"]').setAttribute('content', summary);
+				parent.document.querySelector('meta[name="classification"]').setAttribute('content', classification);
+				parent.document.querySelector('meta[name="designer"]').setAttribute('content', designer);
+				parent.document.querySelector('meta[name="owner"]').setAttribute('content', owner);
+				parent.document.querySelector('meta[name="url"]').setAttribute('content', baseurl);
+				parent.document.querySelector('meta[name="identifier-url"]').setAttribute('content', identityurl);
+				parent.document.querySelector('meta[name="category"]').setAttribute('content', category);
+				parent.document.querySelector('meta[name="coverage"]').setAttribute('content', coverage);
+				parent.document.querySelector('meta[name="distribution"]').setAttribute('content', distribution);
+				parent.document.querySelector('meta[name="rating"]').setAttribute('content', rating);
+				parent.document.querySelector('meta[name="date"]').setAttribute('content', date);
+				parent.document.querySelector('meta[http-equiv="Cache-Control"]').setAttribute('content', cachecontrol);
+				
+				
 			};
 		})('I1');

@@ -50,22 +50,36 @@ body {
 }
 
 	a {
-		color: #c75c75;
+/*		color: #c75c75; */
+		color: grey;
 		text-decoration: none;
-		-webkit-transition: 1.35s color ease-in;
-		   -moz-transition: 1.35s color ease-in;
-			-ms-transition: 1.35s color ease-in;
-			 -o-transition: 1.35s color ease-in;
-				transition: 1.35s color ease-in;
+		-webkit-transition: 2.4s color ease-in;
+		   -moz-transition: 2.4s color ease-in;
+			-ms-transition: 2.4s color ease-in;
+			 -o-transition: 2.4s color ease-in;
+				transition: 2.4s color ease-in;
 	}
 	a:hover {
-		color: white;
+		color: cyan;
 		opacity: 0.9;
-		-webkit-transition: 1.35s color ease-out;
-		   -moz-transition: 1.35s color ease-out;
-			-ms-transition: 1.35s color ease-out;
-			 -o-transition: 1.35s color ease-out;
-				transition: 1.35s color ease-out;
+		-webkit-transition: 0.2s color ease-out;
+		   -moz-transition: 0.2s color ease-out;
+			-ms-transition: 0.2s color ease-out;
+			 -o-transition: 0.2s color ease-out;
+				transition: 0.2s color ease-out;
+		font-weight: bold;
+	
+	}
+		
+	a:hover::after {
+		color: royalblue;
+		opacity: 0.9;
+		-webkit-transition: 0.2s color ease-out;
+		   -moz-transition: 0.2s color ease-out;
+			-ms-transition: 0.2s color ease-out;
+			 -o-transition: 0.2s color ease-out;
+				transition: 0.2s color ease-out;
+		font-weight: bold;
 	
 	}
 

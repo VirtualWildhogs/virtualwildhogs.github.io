@@ -13,7 +13,7 @@
 		curl_close($ch);
 		return $data;
 	}
-	$json = get_data('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=');
+	$json = get_data('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=30&callback=');
 
 // Decode JSON
 	$quote = json_decode($json, true);
@@ -39,8 +39,8 @@
 
 // Database Handling
 
-
 /*
+
 // To Add
 
 $servername = "localhost";
@@ -53,7 +53,7 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	
-	for($i=0; $i<1; $i++) {
+	for($i=0; $i<29; $i++) {
 		
 		$author = strip_tags($quote[$i]['title'],"<b>");
 		$content = strip_tags($quote[$i]['content'],"<b>");
@@ -93,7 +93,7 @@ $conn = null;
       die('Could not connect: ' . mysql_error());
    }
    
-   $sql = 'SELECT id, content, author FROM quote';
+   $sql = 'SELECT id, content, author FROM quote WHERE CHAR_LENGTH(content)<130';
 //   $sql = 'SELECT id, content as content1, author FROM quote WHERE CHAR_LENGTH(content)>500 AND id>1400';
    mysql_select_db('quotes');
    $retval = mysql_query( $sql, $conn );
@@ -103,11 +103,11 @@ $conn = null;
 	}
    
    
-	/*
+/*
 	for($k=0; $k<474; $k++) {
 		echo "Quotation[$k] = <br>";
 	}
-	*/
+*/
 	
 	while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
 		{
@@ -126,17 +126,14 @@ $conn = null;
 
    }
    
-   echo "<b>Fetched data successfully\n";
+   echo "<b><br>Fetched data successfully\n";
    
    mysql_close($conn);
+
+   
  
 
 
-/*
-<html>
-<head>
-<!--	<meta http-equiv="refresh" content="10"> -->
-</head>
-</html>
-*/
+//  echo "<html> <head> <meta http-equiv='refresh' content='2'> </head> </html>";
+
 ?>

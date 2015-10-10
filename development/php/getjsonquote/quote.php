@@ -107,6 +107,13 @@ $conn = null;
 	for($k=0; $k<474; $k++) {
 		echo "Quotation[$k] = <br>";
 	}
+	
+	<script>
+						if (window.location.hostname == "dmj.home") {
+							document.write('<li><a href="/phpmyadmin/" target="I1" >PHPMyAdmin</a></li>');
+						}
+						else {}
+					</script>					
 */
 	
 	while($row = mysql_fetch_array($retval, MYSQL_ASSOC))

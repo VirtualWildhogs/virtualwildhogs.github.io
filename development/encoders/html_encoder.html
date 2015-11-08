@@ -15,18 +15,18 @@ body{
 	font-family: verdana;
 	padding:0 10% 0 10%;
 	margin:0px;
-	background-color:#ffffff;	
+	background-color:#fbfbfb;	
 	background-attachment:fixed;
 
 }
 
 
 .bodycontent{
-	padding:10 20 50 20;
-	background-color:white;
-	border-left:3px outset #DDDDDD;
+	padding:10 20 10 20;
+	background-color:transparent;
+/*	border-left:3px outset #DDDDDD;
 	border-right:3px outset #DDDDDD;	
-	border-bottom:3px outset #DDDDDD;	
+	border-bottom:3px outset #DDDDDD; */
 }
 
 .hilite{
@@ -146,7 +146,7 @@ This script will encode your whole HTML page. Just follow the directions below.<
 <table cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td>
-			<textarea id="f2" cols=80 rows=5 wrap="off" class="code">
+			<textarea id="f2" cols=80 rows=4 wrap="off" class="code">
 <!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
@@ -196,8 +196,8 @@ This script will encode your whole HTML page. Just follow the directions below.<
 <table cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td>
-			<font size="5px"><a href="javascript:document.fa.output.focus();document.fa.output.select();">Select All...</a></br></br></font>
-			<textarea name="output" class="code" rows="5" cols="120">
+			<font size="4px"><a href="javascript:document.fa.output.focus();document.fa.output.select();">Select All...</a></br></br></font>
+			<textarea name="output" class="code" rows="4" cols="120">
 Encoded output will be displayed here...
 </textarea>
 		</td>
@@ -246,7 +246,7 @@ function writeOut(){
 	var key = "key";
 	
 	for (i>0; i<7; i++) {	
-	var randomValue = randomString(25);
+	var randomValue = randomString(24);
 	document.getElementById(key + i).innerHTML = randomValue;
 	}
 </script>

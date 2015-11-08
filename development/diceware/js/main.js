@@ -184,11 +184,14 @@ function displayWords(words) {
 
     // add the word to the main display
     $.each(words, function( index, obj ) {
-        $('#diceWords').append('<li>' + obj.word + '<span class="text-muted">' + obj.wordNum + '</span></li>');
+//        $('#diceWords').append('<li>' + obj.word + '<span class="text-muted">' + obj.wordNum + '</span></li>');
+        $('#diceWords').append('<li>' + obj.word + '</li>');
     });
 
     $("#diceWordsCopyableSpace").text(wordList.join(' '));
     $("#diceWordsCopyableDash").text(wordList.join('-'));
+    $("#diceWordsCopyableNoGap").text(wordList.join(''));
+    $("#diceWordsCopyableUnderscore").text(wordList.join('_'));
     $("#diceWordsCopyableContainer").slideDown();
 }
 
@@ -291,3 +294,16 @@ $(document).ready(function () {
     });
 
 });
+
+// Selects text onclick from a given dynamic id.
+function selectText(containerid) {
+	if (document.selection) {
+		var range = document.body.createTextRange();
+		range.moveToElementText(document.getElementById(containerid));
+		range.select();
+	} else if (window.getSelection) {
+		var range = document.createRange();
+		range.selectNode(document.getElementById(containerid));
+		window.getSelection().addRange(range);
+    }
+}

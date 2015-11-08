@@ -84,6 +84,12 @@
 		<button type="button" class="btn btn-success genWordsButton" data-words="15" data-rolls="5" data-reset="1">
           <span class="glyphicon glyphicon-random" aria-hidden="true"></span> 15 Words
         </button>
+		<button type="button" class="btn btn-success genWordsButton" data-words="20" data-rolls="5" data-reset="1">
+          <span class="glyphicon glyphicon-random" aria-hidden="true"></span> 20 Words
+        </button>
+        <button type="button" class="btn btn-success genWordsButton" data-words="10" data-rolls="5" data-reset="0">
+          <span class="glyphicon glyphicon-random" aria-hidden="true"></span> 10+ Words
+        </button>
         <button type="button" class="btn btn-default genWordsButton" data-words="1" data-rolls="5" data-reset="0">
           <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Word
         </button>
@@ -115,10 +121,11 @@
       <br />
 
       <div id="diceWordsCopyableContainer" class="well well-sm">
-        <span class="label label-default">copyable text variations</span><br /><br />
-        <code id="diceWordsCopyableSpace"></code><br />
-        <code id="diceWordsCopyableDash"></code><br />
-        <code id="diceWordsCopyableNoGap"></code>
+        <span class="label label-default">Copyable Text Variations - Click to select string.</span><br /><br />
+        <strong>With Space: </strong><code id="diceWordsCopyableSpace" onclick="selectText('diceWordsCopyableSpace')"></code> <br />
+		<strong>With Dash: </strong>	<code id="diceWordsCopyableDash" onclick="selectText('diceWordsCopyableDash')"></code><br />
+		<strong>Without Space: </strong><code id="diceWordsCopyableNoGap" onclick="selectText('diceWordsCopyableNoGap')"></code><br />
+		<strong>With Underscore: </strong><code id="diceWordsCopyableUnderscore" onclick="selectText('diceWordsCopyableUnderscore')"></code><br />
       </div>
 
       <div id="entropyEstimateContainer" class="well well-sm">
@@ -304,6 +311,11 @@
 
     <!-- core application JS -->
     <script src="js/main.js"></script>
+
+	<!-- I added this script -->
+	<script type="text/javascript">
+    
+	</script>
 
   </body>
 

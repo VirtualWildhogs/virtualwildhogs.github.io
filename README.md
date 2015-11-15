@@ -2,14 +2,11 @@
 
 ## View this project [here](https://virtualwildhogs.github.io).
 
-#### *This Domain is reserved on GitHub for **~~future~~** use.*
-
+#### *This Domain is reserved on GitHub for ~~future~~ use.*
 
 
 **Where we are from?**
-
-India
-
+> India
 
 
 **To Do:**
@@ -20,9 +17,7 @@ India
 - [ ] *TBD*
 
 
-
 **Contributors:**
-
-Sincere thanks to:
-- *@divyamohan1993*
-- *@virtualwildhogs*
+>Sincere thanks to:
+>- *@divyamohan1993*
+>- *@virtualwildhogs*

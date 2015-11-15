@@ -1,20 +1,25 @@
 # Thankyou for dropping-by!
 
-## virtualwildhogs.github.io
+## View this project [here](https://virtualwildhogs.github.io).
 
-##### This Domain is reserved on GitHub for future use.
+#### *This Domain is reserved on GitHub for **~~future~~** use.*
 
-**Where are we?**
 
-We are live [here](https://virtualwildhogs.github.io).
+
+**Where we are from?**
+
+India
+
+
 
 **To Do:**
-
 - [x] Make Start Page
 - [x] Add Utilities
   - [x] Diceware
   - [ ] *TBD*
 - [ ] *TBD*
+
+
 
 **Contributors:**
 

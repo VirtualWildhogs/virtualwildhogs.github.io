@@ -26,14 +26,14 @@
 > Stydying. :beginner: :books:
 
 
-**To Do:**
-- [x] Make Start Page
-- [x] Add Utilities
-  - [x] Diceware
-  - [x] Developer Mode
-    - [x] **_NTBD_**
-  - [ ] *TBD*
-- [ ] *TBD*
+**What have you done on this project so far?**
+>- [x] Make Start Page
+>- [x] Add Utilities
+>  - [x] Diceware
+>  - [x] Developer Mode
+>    - [x] **_NTBD_**
+>  - [ ] *TBD*
+>- [ ] *TBD*
 
 
 **Contributors:**

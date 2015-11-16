@@ -2,7 +2,7 @@
 
 ## :construction::construction: View this project [here](https://virtualwildhogs.github.io). :construction::construction:
 
-#### :warning::warning: *This Domain is reserved on GitHub for ~~future~~ use.* :warning::warning:
+#### :warning::warning: *This Domain is reserved on GitHub for future use.* :warning::warning:
 
 ###### Questionaire
 

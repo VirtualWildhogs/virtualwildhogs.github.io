@@ -1,4 +1,11 @@
- # ->Thankyou for dropping-by!<-
+ # Thankyou for dropping-by!
+ 
+ -> This is center aligned <-
+ || <!-- empty table header -->
+|:--:| <!-- table header/body separator with center formatting -->
+| I'm centered! | <!-- cell gets column's alignment -->
+
+
 
 ## :construction::construction: View this project [here](https://virtualwildhogs.github.io). :construction::construction:
 

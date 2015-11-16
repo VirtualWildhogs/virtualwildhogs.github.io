@@ -1,11 +1,11 @@
 # Thankyou for dropping-by!
 
-<h1 style="text-align: center;" markdown="1">Thankyou for dropping-by!</h1>
+
 
 
 ||
 |:--:| <!-- table header/body separator with center formatting -->
-| I'm centered! | <!-- cell gets column's alignment -->
+| <h1 style="text-align: center;" markdown="1">Thankyou for dropping-by!</h1> | <!-- cell gets column's alignment -->
 
 
 

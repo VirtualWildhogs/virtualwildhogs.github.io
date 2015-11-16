@@ -19,11 +19,11 @@
 
 
 **Where are you from?**
-> India. :in:
+> ![India](http://flagpedia.net/data/flags/mini/in.png)
 
 
 **What do you do these days?**
-> Stydying. :beginner: :books:
+> ![this](https://33.media.tumblr.com/4efe0a8e93a5a9a45f1a439ade9710dc/tumblr_inline_nnv3w0CJNY1smgkdx_500.gif)
 
 
 **What have you done on this project so far?**

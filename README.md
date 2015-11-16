@@ -27,11 +27,12 @@
 
 
 **What have you done on this project so far?**
->- [x] Make Start Page
->- [x] Add Utilities
+>- [x] Made Start Page
+>- [x] Added Utilities
 >  - [x] Diceware
+>  - [x] Parsing Dynamic Page Request through jQuery.
 >  - [x] Developer Mode
->    - [x] **_NTBD_**
+>    - [x] ~~_TBD_~~ - View the codes directly!
 >  - [ ] *TBD*
 >- [ ] *TBD*
 

@@ -3,9 +3,18 @@
  
 This is center aligned 
 
- || <!-- empty table header -->
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+<h3 style="text-align: center;" markdown="1">This is a level 3 heading.</h3>
+
+
+ ||
 |:--:| <!-- table header/body separator with center formatting -->
 | I'm centered! | <!-- cell gets column's alignment -->
+
 
 
 

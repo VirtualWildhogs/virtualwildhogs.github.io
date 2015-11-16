@@ -1,15 +1,5 @@
 # Thankyou for dropping-by!
 
-
-
-
-||
-|:--:| <!-- table header/body separator with center formatting -->
-| <h1 style="text-align: center;" markdown="1">Thankyou for dropping-by!</h1> | <!-- cell gets column's alignment -->
-
-
-
-
 ## :construction::construction: View this project [here](https://virtualwildhogs.github.io). :construction::construction:
 
 #### :warning::warning: *This Domain is reserved on GitHub for future use.* :warning::warning:

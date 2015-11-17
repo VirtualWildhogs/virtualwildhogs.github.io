@@ -1,15 +1,22 @@
+
+/*-------------------------------------------------------------------------------------------------------------------
+
+NOTE FOR SELF :: THIS FILE IS WRITE PROTECTED TO PREVENT ACCIDENTAL EDIT. IF YOU WANT TO MAKE CHAGES REMOVE 'DENY' FROM SECURITY SETTINGS.
+
+-------------------------------------------------------------------------------------------------------------------*/
+
 		(function (frame) {
 		    document.getElementsByName(frame)[0].onload = function () {
 		        var d = window.frames[frame].document, dt, dd, dk;
 
-		        parent.document.title = (dt = 'Divya Mohan || Happy' + ' - ' + d.title) ? dt : 'Divya Mohan || Happy';
+		        parent.document.title = (dt = 'WildHogs' + ' - ' + d.title) ? dt : 'WildHogs';
 
 		        var description = (dd = d.getElementsByName('description')[0]) ? dd.getAttribute('content', 0) : 'No Description';
 		        var keywords = (dd = d.getElementsByName('keywords')[0]) ? dd.getAttribute('content', 0) : 'No Keywords';
 		        var author = (dd = d.getElementsByName('author')[0]) ? dd.getAttribute('content', 0) : 'Divya Mohan';
 		        var robots = (dd = d.getElementsByName('robots')[0]) ? dd.getAttribute('content', 0) : 'index, follow';
 		        var revisitafter = (dd = d.getElementsByName('revisit-after')[0]) ? dd.getAttribute('content', 0) : '3 days';
-		        var copyright = (dd = d.getElementsByName('copyright')[0]) ? dd.getAttribute('content', 0) : 'Divya Mohan';
+		        var copyright = (dd = d.getElementsByName('copyright')[0]) ? dd.getAttribute('content', 0) : '2015, Divya Mohan';
 		        var language = (dd = d.getElementsByName('language')[0]) ? dd.getAttribute('content', 0) : 'en';
 		        var revised = new Date(document.lastModified);
 		        var summary = (dd = d.getElementsByName('summary')[0]) ? dd.getAttribute('content', 0) : 'Personal Website';

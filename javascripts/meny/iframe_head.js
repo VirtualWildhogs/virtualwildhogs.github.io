@@ -9,7 +9,7 @@ NOTE FOR SELF :: THIS FILE IS WRITE PROTECTED TO PREVENT ACCIDENTAL EDIT. IF YOU
 		    document.getElementsByName(frame)[0].onload = function () {
 		        var d = window.frames[frame].document, dt, dd, dk;
 
-		        parent.document.title = (dt = 'WildHogs' + ' - ' + d.title) ? dt : 'WildHogs';
+		        parent.document.title = (dt = 'VirtualWildHogs' + ' - ' + d.title) ? dt : 'VirtualWildHogs';
 
 		        var description = (dd = d.getElementsByName('description')[0]) ? dd.getAttribute('content', 0) : 'No Description';
 		        var keywords = (dd = d.getElementsByName('keywords')[0]) ? dd.getAttribute('content', 0) : 'No Keywords';
